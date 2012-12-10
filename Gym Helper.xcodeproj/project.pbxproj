@@ -17,12 +17,13 @@
 		DE5F798F1670D1B400CDB2C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F798E1670D1B400CDB2C0 /* Default@2x.png */; };
 		DE5F79911670D1B400CDB2C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F79901670D1B400CDB2C0 /* Default-568h@2x.png */; };
 		DE5F79941670D1B400CDB2C0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5F79921670D1B400CDB2C0 /* MainStoryboard.storyboard */; };
-		DE5F79971670D1B400CDB2C0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F79961670D1B400CDB2C0 /* FirstViewController.m */; };
+		DE5F79971670D1B400CDB2C0 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F79961670D1B400CDB2C0 /* CalendarViewController.m */; };
 		DE5F79991670D1B400CDB2C0 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F79981670D1B400CDB2C0 /* first.png */; };
 		DE5F799B1670D1B400CDB2C0 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F799A1670D1B400CDB2C0 /* first@2x.png */; };
 		DE5F799E1670D1B400CDB2C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5F799D1670D1B400CDB2C0 /* SecondViewController.m */; };
 		DE5F79A01670D1B400CDB2C0 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F799F1670D1B400CDB2C0 /* second.png */; };
 		DE5F79A21670D1B400CDB2C0 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE5F79A11670D1B400CDB2C0 /* second@2x.png */; };
+		DE662D8B1676421C005272CD /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE662D8A1676421C005272CD /* CalendarCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +41,16 @@
 		DE5F798E1670D1B400CDB2C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DE5F79901670D1B400CDB2C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DE5F79931670D1B400CDB2C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		DE5F79951670D1B400CDB2C0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		DE5F79961670D1B400CDB2C0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DE5F79951670D1B400CDB2C0 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		DE5F79961670D1B400CDB2C0 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		DE5F79981670D1B400CDB2C0 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		DE5F799A1670D1B400CDB2C0 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		DE5F799C1670D1B400CDB2C0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		DE5F799D1670D1B400CDB2C0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		DE5F799F1670D1B400CDB2C0 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		DE5F79A11670D1B400CDB2C0 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		DE662D891676421C005272CD /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		DE662D8A1676421C005272CD /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +100,9 @@
 				DE5F79891670D1B400CDB2C0 /* AppDelegate.h */,
 				DE5F798A1670D1B400CDB2C0 /* AppDelegate.m */,
 				DE5F79921670D1B400CDB2C0 /* MainStoryboard.storyboard */,
-				DE5F79951670D1B400CDB2C0 /* FirstViewController.h */,
-				DE5F79961670D1B400CDB2C0 /* FirstViewController.m */,
+				DE5F79951670D1B400CDB2C0 /* CalendarViewController.h */,
+				DE5F79961670D1B400CDB2C0 /* CalendarViewController.m */,
+				DE662D88167641FB005272CD /* CalendarCell */,
 				DE5F79981670D1B400CDB2C0 /* first.png */,
 				DE5F799A1670D1B400CDB2C0 /* first@2x.png */,
 				DE5F799C1670D1B400CDB2C0 /* SecondViewController.h */,
@@ -122,6 +126,15 @@
 				DE5F79901670D1B400CDB2C0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE662D88167641FB005272CD /* CalendarCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE662D891676421C005272CD /* CalendarCell.h */,
+				DE662D8A1676421C005272CD /* CalendarCell.m */,
+			);
+			path = CalendarCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +209,9 @@
 			files = (
 				DE5F79871670D1B400CDB2C0 /* main.m in Sources */,
 				DE5F798B1670D1B400CDB2C0 /* AppDelegate.m in Sources */,
-				DE5F79971670D1B400CDB2C0 /* FirstViewController.m in Sources */,
+				DE5F79971670D1B400CDB2C0 /* CalendarViewController.m in Sources */,
 				DE5F799E1670D1B400CDB2C0 /* SecondViewController.m in Sources */,
+				DE662D8B1676421C005272CD /* CalendarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gym Helper/Gym Helper-Prefix.pch";
 				INFOPLIST_FILE = "Gym Helper/Gym Helper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -290,6 +305,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gym Helper/Gym Helper-Prefix.pch";
 				INFOPLIST_FILE = "Gym Helper/Gym Helper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -314,6 +330,7 @@
 				DE5F79A71670D1B400CDB2C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
